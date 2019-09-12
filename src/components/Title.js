@@ -1,5 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default function Title(props) {
-    return <h1 className='title'> {props.title} </h1>
-} 
+const ImgTitle = (props) => {
+  return (
+    <div>
+      <h2>{props.title}</h2>
+    </div>
+  )
+}
+
+export default ImgTitle;

@@ -1,5 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default function Date(props) {
-    return <h2 className='date'> Photo of the day for {props.date} </h2>
-}  
+const ImgDate = (props) => {
+  return (
+    <div>
+      <h3>{props.date}</h3>
+    </div>
+  )
+}
+
+export default ImgDate;
