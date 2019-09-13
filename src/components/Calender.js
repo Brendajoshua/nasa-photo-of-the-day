@@ -19,7 +19,7 @@ const Calendar = (props) => {
             value={props.imgDate}
             onChange={changeDate}
           />
-        />
+        
       </MuiPickersUtilsProvider>
     </Fragment>
   );
